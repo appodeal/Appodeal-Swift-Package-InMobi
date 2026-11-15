@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0-alpha.1")),
-        .package(url: "https://github.com/InMobi/InMobiSDK-Swift-Package", exact: "11.3.0"),
+        .package(url: "https://github.com/InMobi/InMobiSDK-Swift-Package", exact: "11.5.0"),
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealInMobiAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealInMobiAdapter/11.3.0.1/71f9f59065fd/AppodealInMobiAdapter.xcframework.zip",
-            checksum: "71f9f59065fd5d27a55c43a7274cd9f7fbb84a4e67d4a93058c116470588591f"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealInMobiAdapter/11.5.0.0/de76ab763eed/AppodealInMobiAdapter.xcframework.zip",
+            checksum: "de76ab763eedc30f57b2500a41b375dc4a5a75fe005f15fe49178b4da749035d"
         ),
 
     ]
